@@ -1,0 +1,2 @@
+// CSSをインポート
+import "./index.css"

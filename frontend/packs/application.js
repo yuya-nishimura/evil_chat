@@ -15,5 +15,7 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import "./application.css";
-document.body.insertAdjacentHTML("afterbegin", "webpacker works!")
+// このファイルはエントリーポイントになるので以降はimportしか書かない。
+
+import "init";
+import "components/page/page"
